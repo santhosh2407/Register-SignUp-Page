@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&family=Noto+Sans:wght@200;500;600&family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipNfnyuVnDoA710jtbhpkHq6m7whXYSUB0ZG402N=s1360-w1360-h1020");
+    font-family: 'Roboto Slab', serif;
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    background: #fff;
+    opacity:0.9;
+    width: 410px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container .text{
+    font-size: 35px;
+    font-weight: 550;
+    text-align: center;
+    color: #fe2712;
+}
+.container form{
+    margin-top:-20px;
+}
+.container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+
+}
+ form .data label{
+    font-size: 18px;
+ }
+
+ form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+ }
+ form .data input:focus{
+    border-color:#fe2712;
+    border-bottom-width: 2px;
+ }
+form .forgot-pass{
+    margin-top: -8px;
+}
+form .forgot-pass a{
+    color: #5199E5;
+    text-decoration: none;
+}
+form .forgot-pass a:hover{
+    text-decoration: underline;
+}
+form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+
+}
+form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: #fe2712;
+}
+form .signup-link{
+    text-align :center;
+
+}
+form .signup-link a{
+    color: #5199E5;
+    text-decoration: none;
+
+}
+form .signup-link a:hover{
+    text-decoration: underline;
+}
+.container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    background: #fff;
+    opacity:0.95;
+    width: 750px;
+    height: 670px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+nav{
+    width:100%; 
+    height: 50px;
+    background: #fff;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+}
+nav .logo{
+    font-weight: 600;
+    font-size: 25px;
+    color: red;
+}
+nav .menu a{
+   margin: 10px 10px;
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+  
+}
+nav .menu a:hover{
+    text-decoration: underline;
+}
+.container-fluid h2{
+    font-weight: 450;
+    
+}
+
+.error{
+    color: rgb(137, 14, 14);
+    font-weight: bold;
+    text-align: center;
+}
+.good{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.container-fluid img{
+    margin-left: 200px;
+}
+.container-fluid h3{
+    margin-left: 200px;
+}
+.container-fluid h4{
+    margin-left: 200px;
+}
+.container-fluid h1{
+    margin-left: 200px;
+}
+.container-fluid-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    background: #fff;
+    opacity:0.95;
+    width: 1350px;
+    height: 670px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.container-fluid-1 h1{
+    text-align: center;
+    font-size: 50px;
+}
